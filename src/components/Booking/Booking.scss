@@ -1,0 +1,116 @@
+.booking {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  background-color: #fff;
+  z-index: 2;
+  box-shadow: 0 0 40px rgba(#000, 0.6);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  transition: 0.5s ease;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(50px);
+  padding: 15px 10px;
+
+  &.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .title {
+    font-weight: 700;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+
+  .content {
+    padding: 10px 0;
+  }
+
+  .radio-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .radio-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    * {
+      display: block;
+    }
+
+    input[type="radio"] {
+      margin: 0;
+      margin-right: 5px;
+      cursor: pointer;
+    }
+  }
+
+  .location-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
+
+  .form-group {
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .input-text {
+      display: block;
+      width: 100%;
+      padding: 4px 6px;
+      outline: 0;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      resize: vertical;
+    }
+  }
+
+  .footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0;
+    border-top: 1px solid #eee;
+    margin-top: 10px;
+  }
+
+  .btn {
+    background-color: transparent;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    padding: 3px 6px;
+    border-radius: 3px;
+
+    &:not(:last-child) {
+      margin-right: 5px;
+    }
+
+    &-next {
+      color: #1b9ada;
+    }
+
+    &-finish {
+      background-color: #1b9ada;
+      color: #fff;
+      font-weight: 700;
+    }
+  }
+}
