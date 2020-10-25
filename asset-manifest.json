@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/hyper/static/css/main.f6b8206e.chunk.css",
-    "main.js": "/hyper/static/js/main.ca0bed9f.chunk.js",
-    "main.js.map": "/hyper/static/js/main.ca0bed9f.chunk.js.map",
+    "main.js": "/hyper/static/js/main.e9dffcc9.chunk.js",
+    "main.js.map": "/hyper/static/js/main.e9dffcc9.chunk.js.map",
     "runtime-main.js": "/hyper/static/js/runtime-main.c59b4d8a.js",
     "runtime-main.js.map": "/hyper/static/js/runtime-main.c59b4d8a.js.map",
     "static/js/2.f8017d99.chunk.js": "/hyper/static/js/2.f8017d99.chunk.js",
@@ -11,12 +11,14 @@
     "static/js/3.c5403884.chunk.js.map": "/hyper/static/js/3.c5403884.chunk.js.map",
     "index.html": "/hyper/index.html",
     "static/css/main.f6b8206e.chunk.css.map": "/hyper/static/css/main.f6b8206e.chunk.css.map",
-    "static/js/2.f8017d99.chunk.js.LICENSE.txt": "/hyper/static/js/2.f8017d99.chunk.js.LICENSE.txt"
+    "static/js/2.f8017d99.chunk.js.LICENSE.txt": "/hyper/static/js/2.f8017d99.chunk.js.LICENSE.txt",
+    "static/media/map.45f37029.svg": "/hyper/static/media/map.45f37029.svg",
+    "static/media/marker.fc010fac.svg": "/hyper/static/media/marker.fc010fac.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c59b4d8a.js",
     "static/js/2.f8017d99.chunk.js",
     "static/css/main.f6b8206e.chunk.css",
-    "static/js/main.ca0bed9f.chunk.js"
+    "static/js/main.e9dffcc9.chunk.js"
   ]
 }
